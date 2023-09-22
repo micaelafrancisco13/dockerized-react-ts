@@ -9,5 +9,5 @@ services:
       - 5173:5173
     volumes:
       - .:/app
-    command: ./docker-entrypoint.sh
-    # command: sh -c "npm rebuild esbuild && yarn dev"
+    # command: ./docker-entrypoint.sh
+    command: sh -c "npm rebuild esbuild && yarn dev"
